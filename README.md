@@ -34,22 +34,6 @@ Recall was prioritised over accuracy because missing a churner (false negative) 
 
 ---
 
-## Project Structure
-
-customer-churn-predictor/
-├── data/                   ← raw and cleaned datasets
-├── notebooks/
-│   ├── 01_eda.ipynb        ← exploratory data analysis
-│   ├── 02_features.ipynb   ← data cleaning and feature engineering
-│   └── 03_modelling.ipynb  ← model training and evaluation
-├── app/
-│   └── app.py              ← streamlit web app
-├── models/                 ← saved model files
-├── requirements.txt
-└── README.md
-
----
-
 ## Technical Stack
 
 - **Data:** Telco Customer Churn dataset (Kaggle)
