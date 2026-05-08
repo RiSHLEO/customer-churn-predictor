@@ -2,7 +2,7 @@
 
 A machine learning web app that predicts whether a telecom customer is likely to cancel their subscription, enabling businesses to intervene before losing them.
 
-**Live App:** [link coming after deployment]
+**Live App:** [Click here to view the app]([your-streamlit-url](https://customer-churn-predictor-ksbxzpewgus77xzs9tbc6c.streamlit.app/))
 
 ---
 
