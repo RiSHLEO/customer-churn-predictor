@@ -45,7 +45,7 @@ Recall was prioritised over accuracy because missing a churner (false negative) 
 ## How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/customer-churn-predictor
+git clone https://github.com/RiSHLEO/customer-churn-predictor
 cd customer-churn-predictor
 pip install -r requirements.txt
 cd app
