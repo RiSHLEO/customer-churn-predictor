@@ -2,15 +2,17 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
+import os
 
-# Load the saved model, threshold, and feature columns
-with open('../models/churn_model.pkl', 'rb') as f:
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+with open(os.path.join(base_dir, 'models', 'churn_model.pkl'), 'rb') as f:
     model = pickle.load(f)
 
-with open('../models/threshold.pkl', 'rb') as f:
+with open(os.path.join(base_dir, 'models', 'threshold.pkl'), 'rb') as f:
     threshold = pickle.load(f)
 
-with open('../models/feature_columns.pkl', 'rb') as f:
+with open(os.path.join(base_dir, 'models', 'feature_columns.pkl'), 'rb') as f:
     feature_columns = pickle.load(f)
 
 # App title
